@@ -28,6 +28,10 @@ return [
         //     'name' => 'advanced-backend',
         // ],
         'user' => [
+            // 'class'  => 'dektrium\user\Module',
+            'enableAutoLogin' => true,
+
+            // 'admins' => ['miftahulxhuda'],
             'identityCookie' => [
                 'name'     => '_backendIdentity',
                 'path'     => '/spp/admin',

@@ -32,8 +32,11 @@
                 'items' => [
                     ['label' => 'Applications', 'options' => ['class' => 'header']],
                     ['label' => 'Dashboard', 'icon' => 'dashboard', 'url' => ['/site/index']],
+                    ['label' => 'User', 'icon' => 'circle-o', 'url' => ['/user/admin/index']],
                     ['label' => 'Tingkat', 'icon' => 'circle-o', 'url' => ['/tingkat']],
-                    ['label' => 'Kelas', 'icon' => 'circle-o', 'url' => ['/kelas']]
+                    ['label' => 'Kelas', 'icon' => 'circle-o', 'url' => ['/kelas']],
+                    ['label' => 'Siswa', 'icon' => 'circle-o', 'url' => ['/siswa']],
+                    ['label' => 'Pembayaran', 'icon' => 'circle-o', 'url' => ['/pembayaran']]
                     // ['label' => 'Gii', 'icon' => 'file-code-o', 'url' => ['/gii']],
                     // ['label' => 'Debug', 'icon' => 'dashboard', 'url' => ['/debug']],
                     // ['label' => 'Login', 'url' => ['site/login'], 'visible' => Yii::$app->user->isGuest],

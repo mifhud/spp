@@ -3,7 +3,7 @@
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 use yii\helpers\ArrayHelper;
-use backend\models\Kelas;
+use backend\models\Tingkat;
 
 /* @var $this yii\web\View */
 /* @var $model backend\models\Kelas */
@@ -17,7 +17,7 @@ use backend\models\Kelas;
     <?= $form->field($model, 'nama')->textInput(['maxlength' => true]) ?>
 
     <?= $form->field($model, 'tingkat_id_tingkat')->dropDownList(
-        ArrayHelper::map(Kelas::find()->all(), 'tingkat_id_tingkat', 'nama'),
+        ArrayHelper::map(Tingkat::find()->all(), 'id_tingkat', 'nama'),
         ['prompt' => 'Pilih Tingkat']
     ) ?>
 
